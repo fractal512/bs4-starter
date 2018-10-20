@@ -1,0 +1,40 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $cp-accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $cp-font
+	overflow-x: hidden
+	color: $cp-text
+	background-color: #fff
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+img
+	display: block
+	max-width: 100%
+	height: auto
+
+b, strong
+	font-weight: bold
+
+
+
+@import "media"
+//@import "pixel-perfect"

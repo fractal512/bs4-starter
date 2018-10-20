@@ -1,7 +1,4 @@
-@import "vars";
-
-
-/*==========  Desktop First  ==========*/
+/* ==========  Desktop First  ========== */
 
 // <= 1199.98px
 @include media-breakpoint-down(lg) {
@@ -24,7 +21,7 @@
 }
 
 
-/*==========  Mobile First  ==========*/
+/* ==========  Mobile First  ========== */
 
 // >= 576px
 @include media-breakpoint-up(sm) {

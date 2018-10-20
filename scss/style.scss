@@ -19,6 +19,7 @@ body {
 	font-family: $cp-font;
 	overflow-x: hidden;
 	color: $cp-text;
+	background-color: #fff;
 	input, textarea {
 		border: #666 1px solid;
 		outline: none;
@@ -31,17 +32,10 @@ body {
 	}
 }
 
-.img-responsive {
+img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	&.img-width {
-		width: 100%;
-	}
-}
-
-.text-center {
-	text-align: center;
 }
 
 b, strong {
@@ -50,4 +44,5 @@ b, strong {
 
 
 
-@import "media"; // Always at the end
+@import "media";
+//@import "pixel-perfect";

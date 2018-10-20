@@ -1,0 +1,21 @@
+html {
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-image: url('../images/screenshot.png');
+}
+
+@media (min-width: 768px) {
+	html {
+		background-image: url('../images/screenshot_768.png');
+	}
+}
+
+@media (min-width: 1024px) {
+	html {
+		background-image: url('../images/screenshot_1024.png');
+	}
+}
+
+body {
+	opacity: .5;
+}
